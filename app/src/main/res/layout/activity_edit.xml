@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/redter">
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/redpri"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+
+        android:text="@string/ID" />
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white2"
+        android:textSize="22dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvSongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/redpri"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:text="@string/Song_Title" />
+
+    <EditText
+        android:id="@+id/etUpdateSongTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white2"
+        android:textSize="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/tvSingers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/redpri"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:text="@string/Singers" />
+
+    <EditText
+        android:id="@+id/etUpdateSingers"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white2"
+        android:textSize="22dp"
+        android:ems="10"
+
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/redpri"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:text="@string/Year" />
+
+    <EditText
+        android:id="@+id/etUpdateYear"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white2"
+        android:textSize="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/tvStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/redpri"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:text="@string/Stars" />
+
+    <RatingBar
+        android:id="@+id/rtbUpdateStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:progressTint="@color/redpri"
+        android:progressBackgroundTint="@color/white2"
+        android:layout_weight="1"
+        android:numStars="5"
+        android:stepSize="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/redpri"
+            android:textColor="@color/white2"
+            android:textSize="16dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/Update" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/redpri"
+            android:textColor="@color/white2"
+            android:textSize="16dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/Delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/redpri"
+            android:textColor="@color/white2"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:text="@string/Return" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+</LinearLayout>

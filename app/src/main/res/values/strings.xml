@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">P09 Song Collection</string>
+
+    <string name="Song_Title">Song Title</string>
+    <string name="Singers">Singers</string>
+    <string name="Year">Year</string>
+    <string name="Stars">Stars</string>
+    <string name="Insert">Insert</string>
+    <string name="Show_List">Show Songs</string>
+    <string name="Update">Update</string>
+    <string name="Delete">Delete</string>
+    <string name="Return">Return</string>
+    <string name="Filter">Filter</string>
+    <string name="ID">ID</string>
+    <string name="Popup">Pop-up Window Filter</string>
+
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+
+
+    <string name="Sort">Sort</string>
+
+
+    <string name="InsertSong">Insert Song</string>
+    <string name="ViewSong">View Songs</string>
+    <string name="viewsongpara">Click Show Songs button to view all songs in collection. \n Filter through title, singers, year released, ratings, or combination</string>
+
+    <string name="inserttext">1. Title and Singers cannot be blank, or multiple blank white-spaces\n2. Year must be at least 4 digits, more than Year 1000 to 2022\n3. Rating 0 (nil) to 5 stars</string>
+
+    <string-array name="rating">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="Sort">
+        <item></item>
+        <item>Title ASCENDING</item>
+        <item>Title DESCENDING</item>
+        <item>Singers ASCENDING</item>
+        <item>Singers DESCENDING</item>
+        <item>Year ASCENDING</item>
+        <item>Year DESCENDING</item>
+        <item>Rating ASCENDING</item>
+        <item>Rating DESCENDING</item>
+    </string-array>
+
+</resources>
